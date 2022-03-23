@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image:linear-gradient(#8847d1, #e4376b )
+}
+
+
+header{
+    background-color: #57b2e7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+    padding: 0 150px;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    list-style:none ;
+}
+
+nav ul li a{
+    text-decoration: none;
+    border:1px solid rgb(248, 245, 247);
+    padding:5px 15px;
+    margin:5px 0;
+    line-height:30px;
+    background-color: #55a2a5ea;
+    color: rgb(245, 238, 242);
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    background-color: #6da0a1ea;
+    border:4px solid #08979cea;
+}
+
+
+h2{
+    color: #37bce4;
+    text-align: center;
+}
+    
+
+.container{
+    display: flex; 
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.container .card{
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(15, 30, 161, 0.2);
+    overflow: hidden;
+    margin: 50px;
+    text-align: center;
+    transition: all 0. 25s;
+}
+
+.container .card:hover{
+    transform: translateY(-30px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+
+.container.card img{
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h4{
+    font-weight: 800;
+}
+
+ .container .card p{
+padding: 0 2rem;
+font-size: 20px;
+font-weight: 300;
+}
+
+*/ formulario
+.Linita{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px rgba(240, 66, 182, 0.3);
+    box-shadow: 0 1px 1px rgba(72, 6, 226, 0.3);
+}
+
+.Linita-Msrcela{
+color: rgb(248, 248, 248);
+background-color: #29962a;
+}
+
+.Linita-Msrcela:hover{
+background-color: #37b839;
+}
+
+.Linita-Msrcela:active{
+    background-color: #11a0c4;
+}
+
+form{
+    background-color: #9feeeabe;
+    border-radius: 3px;
+    color: #968282;
+    font-size: 0.8em;
+    padding: 20px;
+margin: 0 auto;
+width: 300px;
+}
+
+input, textarea{
+    border: 0;
+    outline: none;
+    width: 260px;
+    height:40px;
+}
+
+.lunita{
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+
+.lunita:focus{
+    border-color: #18a383;
+}
+
+.container-content{
+    text-align: center;
+}
+
+footer{
+    height: 100px;
+    background-color: #725288;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
